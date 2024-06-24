@@ -1,0 +1,59 @@
+.header {
+text-align:center;
+}
+*{
+    background-color: black;
+}
+header {
+    position: fixed;
+    top: 0px;
+    background-color: red;
+    font-family: papyrus;
+    font-weight: bolder;
+    text-transform: uppercase;
+    margin-top: 0;
+    height: 4em;
+    width: 100%;
+    text-align: center;
+}
+.menu-item {
+    display: inline-block;
+    margin: 0.5em .2em;
+    margin-bottom: 5em;
+    min-width: 6em;
+    text-align: center;
+    background-color: red;
+    padding: 0.5em 1em;
+    
+}
+a{
+    color:black;
+    background-color:red;
+}
+.image-banner{
+    margin-top: 17em;
+    text-align: center;
+   
+}
+.text {
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    text-align: center;
+}
+h1{
+    font-family: papyrus;
+    font-weight: bold;
+    font-size: 72px;
+    text-align: center;
+}
+h2{
+    font-family:'Courier New', Courier, monospace;
+    font-size: 32px;
+    font-weight:bolder;
+    text-align: center;
+    text-decoration: underline;
+}
+#about{
+    margin-bottom: 20em;
+}
