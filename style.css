@@ -57,3 +57,16 @@ h2{
 #about{
     margin-bottom: 20em;
 }
+.social-link{
+    display: inline-block;
+    
+}
+.gallery-photos{
+    margin-top: 17em;
+    display: inline-block;
+    text-align: center;
+    padding: 2em;
+}
+.contact{
+    margin-top: 17em;
+}

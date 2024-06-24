@@ -2,20 +2,80 @@
 <html>
   <head>
     <title>Contact & Order </title>
-     <!-- Not vsible to visitors. -->
+    <link rel="stylesheet" type="text/css" 
+    href="style.css">
   </head>
 
   <body>
     <header> 
-        <h1>test</h1>
+      <div id="logo" class="header">
+        <img src="Images\HuginnsHoardLogo.png" width="300"/>
+      </div>
+      <div class="menu-item">
+        <a href="index.html">Home</a>
+     </div>
+     <div class="menu-item">
+        <a href="gallery.html">Gallery</a>
+     </div>
+     <div class="menu-item">
+        <a href="contact.html">Contact</a>
+     </div>
+     <div class="social-link">
+      <a href="https://www.facebook.com/profile.php?id=100094485302495">
+        <img src="Images/Facebook_Logo.png" alt="Facebook icon" width="20" height="20"> </a>
+     </div>
+     <div class="social-link">
+      <a href="https://huginnshoardjewelry.etsy.com">
+        <img src="Images/etsy-icon.png" alt="Etsy Icon" width="20" height="20"> </a>
+     </div>
+     <div class="social-link">
+      <a href="callilu00@gmail.com">
+        <img src="Images/email-icon.png" alt="email icon" width="20" height="20"> </a>
+     </div>
     </header>
     
     <main>
-      <!-- Main content of the page -->
+      <div class="text contact">
+      <h1>Huginn's Hoard Jewelry</h1>
+
+<address>
+  Contact Us: <br>
+  <a href="mailto:callilu00@gmail.com">callilu00@gmail.com</a><br />
+  <!-- I used my own email because I couldn't find one for B&N -->
+  <a href="https://huginnshoardjewelry.etsy.com">Etsy</a>
+  <a href="https://www.facebook.com/profile.php?id=100094485302495">Facebook</a>
+  <br>
+  <br>
+<h2> Visit Us At Our Next Event:</h2> <br>
+  July 27th & 28th - Flathead Fairy Festival: Kalispell, MT <br>
+   August 3rd & 4th - Cheval Court Renaissance Festival: Billings, MT<br>
+   August 24th - Bozeman Renaissance Festival: Bozeman, MT<br>
+   Septemper 14th & 15th - Magpie Renaissance Festival: Three Forks, MT<br>
+   October 5th & 6th - All Hallows Medieval Fantasy Faire: Billings, MT<br>
+  <br> 
+</address>
+<br>
+<br>
+<form action="https://docs.google.com/spreadsheets/d/1i3KTvjgkWHu-MnDb8Qgw1BvuQu9Zx_qY-OK6uuN3tF0/edit?usp=sharing" method="post">
+   <p>Subscribe to our e-mail list:</p>
+     <input type="text" name="email" />
+  <br>
+  <p>Terms & Conditions:</p>
+  <input type="checkbox" name="service" value="lab" /> Agree
+  <input type="checkbox" name="service" value="library" /> Disagree
+  <br />
+  <p>
+  Comments:
+    <br>
+  <textarea name="comments" id="test-textarea"></textarea>
+</p>
+  <input style=color:white; type="submit" name="subscribe" value="Subscribe" />
+</form>
+</div>
     </main>
     
     <footer>
-      <!-- Contact, more info, etc -->
+      <p style="color:grey; text-align: center;">Callie Luther: Huginn's Hoard Jewelry</p>
     </footer>
   </body>
 </html>
